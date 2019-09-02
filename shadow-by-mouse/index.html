@@ -1,17 +1,22 @@
-<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                background: lightcyan ;
+            }
+            h1{
+                font-size: 7em ; 
+                position: absolute;
+                top:50% ;
+                left : 50% ;
+                transform: translate(-50%,-50%)
+            }
+        </style>
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Title</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
+    </head>
 
-<body style="height: 100vh;">
-    <h1 contenteditable style="top:50%;left:50%;position:absolute;transform:translate(-50%,-50%);font-size:7em;"
-        id="name">Natesh M Bhat</h1>
-    <script src="main.js"></script>
-</body>
-
+    <body>
+        <h1 contenteditable="true" spellcheck="false" id='name'>Developer</h1>
+        <script src="main.js"></script>
+    </body>
 </html>
